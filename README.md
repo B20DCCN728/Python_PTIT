@@ -1,2 +1,2 @@
 # Python_PTIT
-Nothing
+300 bài code thiếu nhi Python
