@@ -8,7 +8,7 @@ while t > 0:
             number //= 10
             continue
         else: 
-            ok = 1
+            ok = 1  
             break
     if ok == 0: print("YES")
     else: print("NO")
