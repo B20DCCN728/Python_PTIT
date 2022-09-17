@@ -1,2 +1,2 @@
 # Python_PTIT
-300 bài code thiếu nhi Python
+Full source code on https://code.ptit.edu.vn
