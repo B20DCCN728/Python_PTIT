@@ -1,6 +1,3 @@
-from re import I
-
-
 t = int(input())
 while t > 0:
     arrMin = str(input())
