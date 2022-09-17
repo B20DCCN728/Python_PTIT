@@ -1,7 +1,5 @@
 from cmath import sqrt
 import math
-from pickle import TRUE
-
 
 def gcd(a, b):
     if a == 0 or b == 0:
