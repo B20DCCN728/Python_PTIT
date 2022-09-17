@@ -1,6 +1,6 @@
 import math
 from decimal import *
-
+#
 class Point:
     def __init__(self, a, b):
         self.a = a
