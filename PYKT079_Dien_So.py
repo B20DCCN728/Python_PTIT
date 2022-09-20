@@ -1,6 +1,3 @@
-from lib2to3.pytree import convert
-
-
 if __name__ == "__main__":
     t = int(input())
     while t > 0:
