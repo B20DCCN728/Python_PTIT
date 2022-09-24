@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     n = int(input())
     solve = [[int(x) for x in input().split()] for i in range(n)]
-    k= int(input())
+    k = int(input())
     r, l = 0, 0
     for i in range(n):
         for j in range(i + 1, n):
