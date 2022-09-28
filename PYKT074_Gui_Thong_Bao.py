@@ -1,4 +1,6 @@
-if __name__ == "__main__":
+#CampusETH
+#Cach 1
+'''if __name__ == "__main__":
     t = int(input())
     while t > 0: 
         solve = input()
@@ -16,4 +18,13 @@ if __name__ == "__main__":
                         break
                 solve = solve[0:ok]
                 print(solve)
+        t -= 1'''
+
+
+import textwrap
+if __name__ == "__main__":
+    t = int(input())
+    while t > 0:
+        shortened = textwrap.shorten(input(), width = 100, placeholder = "")
+        print(shortened)
         t -= 1
