@@ -1,4 +1,4 @@
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     n, m = [int(x) for x in input().split()]
     data = [[int(x) for x in input().split()] for i in range(n)]
     res = []
@@ -25,4 +25,19 @@ if __name__ == "__main__":
     for i in range(len(res)):
         for j in range(len(res)):
             print(res[i][j], end = " ")
+        print()'''
+
+n, m = map(int, input().split())
+a = []
+for _ in range(n):
+    a.append([int(i) for i in input().split()])
+tmp = 0 if n > m else 1
+pos = [i for i in range(tmp, abs(n - m) * 2, 2)]
+for i in range(n):
+    if (n > m and i not in pos) or n == m:
+        print(*a[i])
+    elif n < m:
+        for j in range(m):
+            if j not in pos:
+                print(a[i][j], end=' ')
         print()
