@@ -1,4 +1,4 @@
-#Sanng Nguyen To Pro Max
+#Sang Nguyen To Pro Max
 era = [0] * 1000001
 def era_pro_max():
     era[0] = era[1] = 1
